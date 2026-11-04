@@ -1,0 +1,5 @@
+# Aquí solo hay imágenes: nada subido se puede ejecutar.
+Options -ExecCGI -Indexes
+<FilesMatch "\.(php|phtml|phar|pl|py|cgi|sh|html?|svg)$">
+    Require all denied
+</FilesMatch>
